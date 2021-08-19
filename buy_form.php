@@ -392,6 +392,11 @@ footer{
 												<input type="e-mail" name="">		
 											</td>
 										</tr>
+										<tr>
+										<td>
+										<label><button type="button">Place Your Order>></button></label>
+										</td>
+										</tr>
 									</table>
 								</div>
 							</div>
@@ -401,6 +406,7 @@ footer{
 				</div>
 			</div>
 		</div>
+		
 	</section>
 
 	<footer class="btm-foot">Nokib Group & Company</i>
