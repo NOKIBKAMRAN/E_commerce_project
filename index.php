@@ -44,7 +44,9 @@
                         <h1>Mega LCD TV For Sports</h1>
                         <p>This is the best tv in the world for people who just want to waste time in front of tv.</p>
                         <h1 class="price">TK.1200</h1>
-                        <button class="buy-now-button">Buy Now</button>
+                      <form action="buy_form.php" method = "get"> 
+                        <input type="submit" class = "buy-now-button" value = "Buy Now"> 
+                    </form> 
                     </div>
                     <div class="col-md-5">
                         <img src="images/banner-images/tv.png" class="d-block w-100" alt="...">
@@ -57,7 +59,9 @@
                         <h1>Cool Dude Headphone</h1>
                         <p>This is the best headphone in the world for people who just want to waste time in front of funky world.</p>
                         <h1 class="price">Tk.5000</h1>
-                        <button class="buy-now-button">Buy Now</button>
+                        <form action="buy_form.php" method = "get"> 
+                        <input type="submit" class = "buy-now-button" value = "Buy Now"> 
+                    </form>
                       </div>
                       <div class="col-md-5">
                         <img src="images/banner-images/headphone.png" class="d-block w-100" alt="...">
@@ -70,7 +74,9 @@
                         <h1>X-Box for your living room</h1>
                         <p>This is the best x-box in the world for people who just want to waste time in front of fake sports.</p>
                         <h1 class="price">Tk.3000</h1>
-                        <button class="buy-now-button">Buy Now</button>
+                        <form action="buy_form.php" method = "get"> 
+                        <input type="submit" class = "buy-now-button" value = "Buy Now"> 
+                    </form>
                       </div>
                       <div class="col-md-5">
                         <img src="images/banner-images/xbox.png" class="d-block w-100" alt="...">
@@ -121,7 +127,9 @@
             <h5 class="card-title">Supply 350</h5>
             <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional.</p>
             <h5>Tk.5000</h5>
-            <button class="buy-now-button">Buy Now >></button>
+            <form action="buy_form.php" method = "get"> 
+                        <input type="submit" class = "buy-now-button" value = "Buy Now>>"> 
+                    </form> 
           </div>
         </div>
         <div class="card">
@@ -130,7 +138,9 @@
             <h5 class="card-title">Nike 360</h5>
             <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
             <h5>Tk.3200</h5>
-            <button class="buy-now-button">Buy Now >></button>
+            <form action="buy_form.php" method = "get"> 
+                        <input type="submit" class = "buy-now-button" value = "Buy Now>>"> 
+                    </form>
           </div>
         </div>
         <div class="card">
@@ -139,7 +149,9 @@
             <h5 class="card-title">Red Airmax</h5>
             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional.</p>
             <h5>Tk.3500</h5>
-            <button class="buy-now-button">Buy Now >></button>
+            <form action="buy_form.php" method = "get"> 
+                        <input type="submit" class = "buy-now-button" value = "Buy Now>>"> 
+                    </form>
           </div>
         </div>
       </div>
@@ -156,7 +168,9 @@
             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
           </div>
           <div class="card-footer">
-            <button class="buy-now-button">Buy Now >></button>
+          <form action="buy_form.php" method = "get"> 
+                        <input type="submit" class = "buy-now-button" value = "Buy Now>>"> 
+                    </form>
           </div>
         </div>
         <div class="card">
@@ -167,7 +181,9 @@
             <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
           </div>
           <div class="card-footer">
-            <button class="buy-now-button">Buy Now >></button>
+          <form action="buy_form.php" method = "get"> 
+                        <input type="submit" class = "buy-now-button" value = "Buy Now>>"> 
+                    </form>
           </div>
         </div>
         <div class="card">
@@ -178,7 +194,9 @@
             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
           </div>
           <div class="card-footer">
-            <button class="buy-now-button">Buy Now >></button>
+          <form action="buy_form.php" method = "get"> 
+                        <input type="submit" class = "buy-now-button" value = "Buy Now>>"> 
+                    </form>
           </div>
         </div>
       </div>
