@@ -71,8 +71,8 @@
 		th{
 			text-align: left;
 		    width: 33%;
-		    font-size: 20px;
-		    margin: 0 40px;
+		    font-size: 40px;
+		    margin: 0 60px;
 		}
 		td label {
 			padding: 5px;
@@ -310,94 +310,97 @@ footer{
 							<div class="row">
 								<div class="col-md-12" style="text-align: center;">
 									<table style="text-align: center; margin: 0 20%;">
-										<tr>
-											<td>
-												<label><p> <u>Full Name :</u></p></label>	
-											</td>
-											<td>
-												<input type="text" name="">		
-											</td>
-										</tr>
-										<tr>
-											<td>
-												<label><u>Product Code :</u></label>	
-											</td>
-											<td>
-												<input type="text" name="">		
-											</td>
-										</tr>
-										<tr>
-											<td>
-												<label><u>Size :</u></label>	
-											</td>
-											<td>
-												<input type="text" name="">		
-											</td>
-										</tr>
-                                        <tr>
-											<td>
-												<label><u>House/Holdin No : </u></label>	
-											</td>
-											<td>
-												<input type="text" name="">		
-											</td>
-										</tr>
-                                        <tr>
-											<td>
-												<label><u>Road No: </u></label>	
-											</td>
-											<td>
-												<input type="txt" name="">		
-											</td>
-										</tr>
-                                        <tr>
-											<td>
-												<label><u>Thana : </u></label>	
-											</td>
-											<td>
-												<input type="txt" name="">		
-											</td>
-										</tr>
-                                        <tr>
-											<td>
-												<label><u>Division : </u></label>	
-											</td>
-											<td>
-												<input type="txt" name="">		
-											</td>
-										</tr>
-                                        <tr>
-											<td>
-												<label><u>Postal Code: </u></label>	
-											</td>
-											<td>
-												<input type="txt" name="">		
-											</td>
-										</tr>
+										<form action="order_information.php" method = "post">
+											<tr>
+												<td>
+													<label><p> <u>Full Name :</u></p></label>	
+												</td>
+												<td>
+													<input type="text" name="name">		
+												</td>
+											</tr>
+											<tr>
+												<td>
+													<label><u>Product Code :</u></label>	
+												</td>
+												<td>
+													<input type="text" name="product">		
+												</td>
+											</tr>
+											<tr>
+												<td>
+													<label><u>Size :</u></label>	
+												</td>
+												<td>
+													<input type="text" name="size">		
+												</td>
+											</tr>
+											<tr>
+												<td>
+													<label><u>House/Holdin No : </u></label>	
+												</td>
+												<td>
+													<input type="text" name="houseNo">		
+												</td>
+											</tr>
+											<tr>
+												<td>
+													<label><u>Road No: </u></label>	
+												</td>
+												<td>
+													<input type="txt" name="roadNo">		
+												</td>
+											</tr>
+											<tr>
+												<td>
+													<label><u>Thana : </u></label>	
+												</td>
+												<td>
+													<input type="txt" name="thana">		
+												</td>
+											</tr>
+											<tr>
+												<td>
+													<label><u>Division : </u></label>	
+												</td>
+												<td>
+													<input type="txt" name="dividion">		
+												</td>
+											</tr>
+											<tr>
+												<td>
+													<label><u>Postal Code: </u></label>	
+												</td>
+												<td>
+													<input type="txt" name="postalCode">		
+												</td>
+											</tr>
 
-										<tr>
-											<td>
-												<label><u>Phone Number :</u></label>	
-											</td>
-											<td>
-												<input type="text" name="">		
-											</td>
-										</tr>
+											<tr>
+												<td>
+													<label><u>Phone Number :</u></label>	
+												</td>
+												<td>
+													<input type="text" name="phone">		
+												</td>
+											</tr>
 
-										<tr>
+											<tr>
+												<td>
+													<label><u>E-mail : </u></label>	
+												</td>
+												<td>
+													<input type="e-mail" name="mail">		
+												</td>
+											</tr>
+											<tr>
 											<td>
-												<label><u>E-mail : </u></label>	
+											 	<input type="submit" name ="submit" value = "Place Order">
 											</td>
-											<td>
-												<input type="e-mail" name="">		
-											</td>
-										</tr>
-										<tr>
-										<td>
-										<label><button type="button">Place Your Order>></button></label>
-										</td>
-										</tr>
+											</tr>
+										</form>
 									</table>
+									
 								</div>
 							</div>
 						</div>

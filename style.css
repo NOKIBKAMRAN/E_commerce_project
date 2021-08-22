@@ -2,17 +2,17 @@
     margin-bottom: 100px;
 }
 .orange-bg{
-    background-color: #fceae8;
+    background-color: #fceae854;
     border-radius: 10px;
 }
 .carousel-item{
     padding: 20px 40px;
 }
 .price{
-    color: #FF136F;
+    color:#2313ff;
 }
 .buy-now-button{
-    background-image: linear-gradient(to bottom, #FF589B 0%, #FF136F 100%);
+    background-image: linear-gradient(to bottom, #ff589b50 0%, #ff136e56 100%);
     color: #fff;
     border: none;
     border-radius: 8px;
@@ -24,13 +24,13 @@
     border-radius: 10px;
 }
 .cat1{
-    background-color: orange;
+    background-color: rgba(0, 26, 255, 0.377);
 }
 .cat2{
-    background-color: orchid;
+    background-color: rgb(218, 112, 112);
 }
 .cat3{
-    background-color: blue;
+    background-color: rgba(0, 0, 255, 0.445);
 }
 .categories h1{
     color: white;
@@ -42,7 +42,7 @@
     border: none;
     inset-block: ;
     border-radius: 10px;
-    box-shadow: 5px 5px 10px lightgray;
+    box-shadow: 5px 5px 10px rgba(211, 211, 211, 0.616);
 }
 .card-footer{
     background-color: white;

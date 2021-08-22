@@ -29,6 +29,9 @@
                   <a class="nav-link" href="#backpack">Backpack</a>
                 </li>
                 <li class="nav-item">
+                  <a class="nav-link" href="#watches">Watch</a>
+                </li>
+                <li class="nav-item">
                   <a class="nav-link" href="#subscribe">Subscribe</a>
                 </li>
               </ul>
@@ -99,19 +102,19 @@
       <div class="row">
         <div class="col-md-4">
           <div class="d-flex justify-content-between align-items-center cat1">
-            <h1>Watch</h1>
+            <h1><a href="#watches">Watch</a></h1>
             <img src="images/categories/watch.png" alt="">
           </div>
         </div>
         <div class="col-md-4">
           <div class="d-flex justify-content-between align-items-center cat2">
-            <h1>Bag</h1>
+            <h1><a href="#backpack">Bag</a> </h1>
             <img src="images/categories/bag.png" alt="">
           </div>
         </div>
         <div class="col-md-4">
           <div class="d-flex justify-content-between align-items-center cat3">
-            <h1>Shoes</h1>
+            <h1><a href="#shoes">Shoes</a> </h1>
             <img src="images/categories/shoes.png" alt="">
           </div>
         </div>
@@ -195,6 +198,44 @@
           </div>
           <div class="card-footer">
           <form action="buy_form.php" method = "get"> 
+                        <input type="submit" class = "buy-now-button" value = "Buy Now>>"> 
+                    </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container watch" id="watches">
+      <h3>Watch</h3>
+      <div class="card-deck">
+        <div class="card">
+          <img src="images/watchs/4.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Rolex</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional.</p>
+            <h5>Tk.5000</h5>
+            <form action="buy_form.php" method = "get"> 
+                        <input type="submit" class = "buy-now-button" value = "Buy Now>>"> 
+                    </form> 
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/watchs/2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Pulsar</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            <h5>Tk.3200</h5>
+            <form action="buy_form.php" method = "get"> 
+                        <input type="submit" class = "buy-now-button" value = "Buy Now>>"> 
+                    </form>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/watchs/3.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Fast Track</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional.</p>
+            <h5>Tk.3500</h5>
+            <form action="buy_form.php" method = "get"> 
                         <input type="submit" class = "buy-now-button" value = "Buy Now>>"> 
                     </form>
           </div>
